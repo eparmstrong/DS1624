@@ -12,7 +12,7 @@ void DS1624_c::startConversion(uint8_t address){
 	Wire.endTransmission();
 }
 
-void DS1624_c::StopConversion(uint8_t address){
+void DS1624_c::stopConversion(uint8_t address){
 	Wire.beginTransmission(address | BASE);
 	Wire.write(0x22);
 	Wire.endTransmission();
