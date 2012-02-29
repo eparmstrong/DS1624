@@ -1,0 +1,11 @@
+DS1624	KEYWORD1
+startConversion	KEYWORD2
+stopConversion	KEYWORD2
+setOneShot	KEYWORD2
+setContinuous	KEYWORD2
+readConfig	KEYWORD2
+temprature16	KEYWORD2
+waitForConversion	KEYWORD2
+temprature	KEYWORD2
+toFloat	KEYWORD2
+
